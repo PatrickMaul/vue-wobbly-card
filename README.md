@@ -24,7 +24,6 @@ npm i vue-wobbly-card
         <h1>Hallo, Welt!</h1>
         <h1>Hallo, Welt!</h1>
         <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
       </div>
     </vue-wobbly-card>
   </div>
@@ -48,6 +47,7 @@ export default {
 | `shaky_card_id` | String | Random | **Required** for card movement.|
 | `shakiness` | Number | 3 | **Required** Possible value between 1-6, more or less will set `shakiness` to 0.| -->
 
+![](my_video.mov)
 ### Events
 You should perform all events inside the `vue-wobbly-card` element.
 
