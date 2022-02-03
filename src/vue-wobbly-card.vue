@@ -40,26 +40,12 @@ export default /*#__PURE__*/ {
       this.getInnerElement.style.setProperty("--y-pos", 0);
     },
     wobble(event) {
-      if (
-        typeof this.wobbleStrength != "string" &&
-        typeof this.wobbleStrength != "number"
-      )
-        console.error(
-          "TypeError: \n You may should check the following property, it only works with Numbers or Strings! \n wobbleStrength"
-        );
-
       const { width, height } = this.getWidthAndHeight;
       const { layerX, layerY } = event;
       this.getInnerElement.style.transition = "all 0.0s ease-in-out";
 
-      this.getInnerElement.style.setProperty(
-        "--x-pos",
-        layerX / width - strength
-      );
-      this.getInnerElement.style.setProperty(
-        "--y-pos",
-        layerY / height - strength
-      );
+      this.getInnerElement.style.setProperty("--x-pos", layerX / width - 0.5);
+      this.getInnerElement.style.setProperty("--y-pos", layerY / height - 0.5);
     },
   },
 };
@@ -74,7 +60,7 @@ export default /*#__PURE__*/ {
 .container {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom right, #9847ff 0%, #c447ff 100%);
+  /* background: linear-gradient(to bottom right, #9847ff 0%, #c447ff 100%); */
 
   --x-pos: 0;
   --y-angle: calc(var(--x-pos) * 5deg);
