@@ -9,11 +9,11 @@ The card begins to lift off the screen in the opposite direction to the mouse po
 
 In other words, at the point where the mouse pointer is, the card is pushed back a little, while the opposite corner is lifted a little.
 
-## Installation
+<!-- ## Installation
 ### NPM
 ````
 npm i vue-wobbly-card
-````
+```` -->
 
 <!-- ## Usage
  ````html
@@ -53,4 +53,4 @@ You should perform all events inside the `vue-wobbly-card` element.
 
 ## Version History
 ### 1.0.0
-Publish v1
+<!-- Publish v1 -->
