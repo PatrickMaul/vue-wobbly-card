@@ -1,5 +1,5 @@
 {
-  "name": "Vue_wobbly_card",
+  "name": "vue-wobbly-card",
   "version": "1.0.0",
   "description": "",
   "main": "dist/vue-wobbly-card.ssr.js",
@@ -44,5 +44,15 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickMaul/vue-wobbly-card"
+  },
+  "bugs": {
+    "url": "https://github.com/PatrickMaul/vue-wobbly-card/issues",
+    "email": "maulpatrick1996@gmail.com"
+  },
+  "author": "Patrick Maul <maulpatrick1996@gmail.com>",
+  "license": "MIT"
 }
