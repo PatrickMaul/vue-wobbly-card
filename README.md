@@ -1,8 +1,13 @@
 # vue-wobbly-card
 ### Inspired by [baby_wolf_codes](https://www.instagram.com/baby_wolf_codes/)
-<!-- #### [GitHub - Repo](https://github.com/kk-kakadu/vue-wobbly-card) -->
+#### [GitHub - Repository](https://github.com/PatrickMaul/vue-wobbly-card)
 ---
+<br>
 
+This card creates a simple but very beautiful effect.
+The card begins to lift off the screen in the opposite direction to the mouse pointer.
+
+In other words, at the point where the mouse pointer is, the card is pushed back a little, while the opposite corner is lifted a little.
 
 ## Installation
 ### NPM
