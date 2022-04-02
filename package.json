@@ -1,6 +1,6 @@
 {
   "name": "vue-wobbly-card",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/vue-wobbly-card.ssr.js",
   "browser": "dist/vue-wobbly-card.esm.js",

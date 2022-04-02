@@ -12,7 +12,7 @@
 </template>
 
 <script>
-export default /*#__PURE__*/ {
+export default {
   name: "VueWobblyCard",
   data: () => ({
     cardId: null,

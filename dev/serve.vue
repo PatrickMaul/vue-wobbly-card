@@ -13,38 +13,6 @@ export default Vue.extend({
 <template>
   <div id="app">
     <vue-wobbly-card>
-      <div style="margin: 8px">
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-      </div>
-    </vue-wobbly-card>
-    <vue-wobbly-card>
-      <div>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-      </div>
-    </vue-wobbly-card>
-    <vue-wobbly-card>
-      <div>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-      </div>
-    </vue-wobbly-card>
-    <vue-wobbly-card>
-      <div>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-      </div>
-    </vue-wobbly-card>
-    <vue-wobbly-card>
       <div>
         <h1>Hallo, Welt!</h1>
         <h1>Hallo, Welt!</h1>

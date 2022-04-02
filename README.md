@@ -9,36 +9,29 @@ The card begins to lift off the screen in the opposite direction to the mouse po
 
 In other words, at the point where the mouse pointer is, the card is pushed back a little, while the opposite corner is lifted a little.
 
-<!-- ## Installation
+## Installation
 ### NPM
 ````
 npm i vue-wobbly-card
-```` -->
+````
 
-<!-- ## Usage
+## Usage
  ````html
 <template>
-  <div>
-   <vue-wobbly-card>
-      <div>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-        <h1>Hallo, Welt!</h1>
-      </div>
-    </vue-wobbly-card>
-  </div>
+    <vwc> Hello, World </vwc>
 </template>
 
 <script>
-import VueWobblyCard from "../../node_modules/vue-wobbly-card/src/vue-wobbly-card.vue";
+import vwc from "vue-wobbly-card";
 
 export default {
+  name: "Example",
   components: {
-    VueWobblyCard,
+    vwc,
   },
 };
 </script>
-```` -->
+````
 
 <!-- ### Props
 
@@ -50,5 +43,9 @@ export default {
 You should perform all events inside the `vue-wobbly-card` element.
 
 ## Version History
+### 1.1.0
+Propper Import
+### 1.0.1
+Test
 ### 1.0.0
-<!-- Publish v1 -->
+Publish v1
